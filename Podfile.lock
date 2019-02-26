@@ -1,0 +1,24 @@
+PODS:
+  - Canvas (0.1.2)
+  - UIColor_Hex_Swift (4.0.2)
+  - UPCarouselFlowLayout (1.1.1)
+
+DEPENDENCIES:
+  - Canvas
+  - UIColor_Hex_Swift
+  - UPCarouselFlowLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Canvas
+    - UIColor_Hex_Swift
+    - UPCarouselFlowLayout
+
+SPEC CHECKSUMS:
+  Canvas: eb861e3b555d032648146c8ffda1a5dea40059ca
+  UIColor_Hex_Swift: 2fb123c7d864994a5137ef57c4dc55e17a657d29
+  UPCarouselFlowLayout: 02045c1505d63057fba3d9975be880a8d16bf17d
+
+PODFILE CHECKSUM: 24242b7fcd3906cbdb89773db2d5c74f1a9afcf6
+
+COCOAPODS: 1.5.3

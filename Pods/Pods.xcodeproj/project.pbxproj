@@ -1,0 +1,1447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02BD4F898E8FBC821B12F4DE200967C1 /* Canvas-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2AA76C0CD7920B820CF14C23C7AF804 /* Canvas-dummy.m */; };
+		076B143ED7E93BD83AA59D9A1B6BA6C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		0C73C64BD52C03AC9283EC1C8C78A420 /* Pods-WhispR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0504A66C5F0CE3D81FCBEC5BBA2DA6EA /* Pods-WhispR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D27D8F31749C3D7C55CA0B3D38D4E75 /* UITextField+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3DF95B19640FCCBEF3C5AFC598CC87 /* UITextField+TCCustomFont.m */; };
+		14A14F761865A8A9B235175A07F1822C /* UILabel+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 24FA1B63871C72D50112755489E5611A /* UILabel+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1503213443BED50F131A55429453D652 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 6C77377819859C99C27DA03BCDEF0DEB /* Info.plist */; };
+		1816F09900906F161BA889F6CF00B017 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		190D4FC1811881DF3B163BF524AB1E6F /* CSAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5043CC053A04ADA1EFF03D7B70BC1132 /* CSAnimationView.m */; };
+		1B052940904113503E18FE5FE51DE818 /* UITextField+PlaceholderColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E3E1149CB87D860AE0EB6EF4E0921D /* UITextField+PlaceholderColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33DA7A0C2FBF04D35DA90DF25C5C344F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		3545B0D4EA93B96F7A5DA66D33F232A2 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADCF34C8104B157F2BAD38E0CF182650 /* UIColorExtension.swift */; };
+		364292DC2E201894D4B2D7D4E49B6983 /* CSBlurView.h in Headers */ = {isa = PBXBuildFile; fileRef = D1FF418B8F954F4C2D1FEC9E0AA0339A /* CSBlurView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A47D4B579D396DE832473B13DA9870A /* Pods-WhispRTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2528B5169092A7312D613131FD68666F /* Pods-WhispRTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42AF4F04E566C82CB7A9D031C7204A04 /* CSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C7C7E6B30340D9962EB50E95E708B6 /* CSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43B672F08149F3B9E7956216FE45F46D /* UPCarouselFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5EE1F99297DB8CA8B2EB3872387B9D /* UPCarouselFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A3158088A9050536B7A282E9BAE17FE /* CSAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDAAD87DC037C0F1BF6C0F20EF2DD125 /* CSAnimation.m */; };
+		4D930489F539C9C6F59FB7EEDD056435 /* UPCarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEB50BDBCCC0AA7201685B0B89A7A88 /* UPCarouselFlowLayout.swift */; };
+		5406BEB3FD29A9C539DE4AFE4C10A986 /* Canvas.h in Headers */ = {isa = PBXBuildFile; fileRef = B28543BF7E90B04114E4577937FD265A /* Canvas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		602B68B7EC15B10FE4D1EA9AD80E9F8C /* Pods-WhispRUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6B5B57967AAD52B15EC47C3BB72912 /* Pods-WhispRUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		603A783B1E251353EDBDA43F35E63B8A /* CSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8CE3BDE2A929AD8DC2E6023320E9753 /* CSNavigationController.m */; };
+		63FDE563AA35DE68EBDAE91A979D9FA2 /* Pods-WhispRUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DD63E9CC3D8BF425FB214044FEE596 /* Pods-WhispRUITests-dummy.m */; };
+		649007CA24A39B49B960828688775E31 /* UILabel+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D2575A929E173B794583DFED1AB7DF2 /* UILabel+TCCustomFont.m */; };
+		667B11DDAEA2C7ABFC823320317B326D /* UIColor_Hex_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3648D5FD291125B2421D981BAFB31F1 /* UIColor_Hex_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C82158900F33A576A5A46FCEA07ECDD /* Pods-WhispRTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCB7F81DF54681ACB45D16734A3D0B41 /* Pods-WhispRTests-dummy.m */; };
+		74AA103709FB8626E165BF5D16C00327 /* UPCarouselFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4719278EE62CA5A644B5CA6899F9C14 /* UPCarouselFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79091A120833E7602B730D078817A104 /* UITextField+PlaceholderColor.m in Sources */ = {isa = PBXBuildFile; fileRef = D07FF103F11245B76EE81B7649D1FA56 /* UITextField+PlaceholderColor.m */; };
+		8011BB215C76D9D9AEA7CC7DD11AD020 /* UITextField+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = B4B33C65199EEDE474EA2E41ACDA034C /* UITextField+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87F467023D856D6C4593E24263667D22 /* UIButton+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E78018EDB7FE7D1E8FA8BFFFDFE988C /* UIButton+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E42DD04601DA8609C72D3CFB073F62D /* Canvas-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CABBD543E7F08AC2C84F60106A3475E /* Canvas-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91D795311EAD2F3355D0BEEB2F0AE0EC /* CSAnimationView.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE796A57715DF038EC4CD8A5C7BFEFD /* CSAnimationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92850C64E351375AB8760BB8089C14ED /* UIButton+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D4E6DA10A482A42C79935C7FE09D11 /* UIButton+TCCustomFont.m */; };
+		9AED9AE2CB8E25AFC536538448C60D5D /* UIColor_Hex_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3161D7E5D6CD03A772805B96DDC32DF5 /* UIColor_Hex_Swift-dummy.m */; };
+		A1BD168DD0FAAB7537580B019D458087 /* UINavigationBar+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 1215A597F806E5E832341F5FC2F983A6 /* UINavigationBar+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC5E93A68A92077ABE6B16C958C9F42C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB76D4E0C265A37B6DC099BA33B3FA1 /* StringExtension.swift */; };
+		BC18EF8FF3C007097CCAE95EE80FB877 /* Pods-WhispR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A29864CF1A3B2AACCAEAA4BAD277C /* Pods-WhispR-dummy.m */; };
+		BC94CDD97A0B38E84E526BE7A9E78987 /* HEXColor.h in Headers */ = {isa = PBXBuildFile; fileRef = DFF73B79EEB0E1867A56F3CC13145FF1 /* HEXColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C11E9E3E1599422A2BC7984680EA8277 /* CSBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE27FF244B18044A64180DFCF757CD /* CSBlurView.m */; };
+		C2CF24AE17CF70CA0A1706C7F659E88B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
+		D1EF4A54B4E8F963E7232DA731E7AE75 /* CSAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = B4D7D09B350586C319B6330BD5287470 /* CSAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5374FDB05E6C3CA00625AD949DA6E57 /* UITextView+TCCustomFont.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E8CC338E22746565737181ACCE0FCC /* UITextView+TCCustomFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5B801126452C05AAAA941553F7A5C80 /* UITextView+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 46AC28CC85C5ACD1964B25283FF2BF77 /* UITextView+TCCustomFont.m */; };
+		E02988B0B2315116D72641CA6D3F23B2 /* UPCarouselFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3749EB35131D9F245A7F48FA5FF4B138 /* UPCarouselFlowLayout-dummy.m */; };
+		E4327C5366600484CAE9D259586B2905 /* UIColorInputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3139A40D6F46EB02B34CFEA0D064C497 /* UIColorInputError.swift */; };
+		E4B2AE3F732EFE81FB2B571D0F919835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		EF227E2FAED8F47096E6483BED605DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		F478C4DA892A5793AA0D6529ED998D49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		F8A30EB7E98022E480E091F7E01475EF /* UINavigationBar+TCCustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F57A2FE5F964ACA768DFEB618D232BE /* UINavigationBar+TCCustomFont.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47E02C2D834F2FB718DBC21B99832BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C1530ED0590F970BF48ADD34359914;
+			remoteInfo = "Pods-WhispR";
+		};
+		559D5CBE7A03E5550D8FCD2C88E4A018 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19C1530ED0590F970BF48ADD34359914;
+			remoteInfo = "Pods-WhispR";
+		};
+		A11191C785360035B125D648BEAAA5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B1F7D992188AE1C4099470FAF013C96;
+			remoteInfo = Canvas;
+		};
+		A1F7CF0699B93039CA01430A58CDE118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC043FAF7C8B1FCFA0BDE97BFE3C0CEF;
+			remoteInfo = UIColor_Hex_Swift;
+		};
+		A384E5C4702FA7CF20243B6B7005919A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920697005C5EF293DAA65E35D5010FDC;
+			remoteInfo = UPCarouselFlowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C4BA4EC746A23707E534FF18F1285D /* Pods-WhispRUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhispRUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0504A66C5F0CE3D81FCBEC5BBA2DA6EA /* Pods-WhispR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhispR-umbrella.h"; sourceTree = "<group>"; };
+		0C5D1A1EEB190DB85D21FC2E43AB9D5A /* Canvas.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Canvas.xcconfig; sourceTree = "<group>"; };
+		0CBE27FF244B18044A64180DFCF757CD /* CSBlurView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSBlurView.m; path = CanvasLibrary/CSBlurView.m; sourceTree = "<group>"; };
+		0E295FEC801A37BEA05B579C152B2646 /* Pods-WhispR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhispR.debug.xcconfig"; sourceTree = "<group>"; };
+		1215A597F806E5E832341F5FC2F983A6 /* UINavigationBar+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+TCCustomFont.h"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.h"; sourceTree = "<group>"; };
+		1C90C55A3E8C51A6DDF87FBB053CCFEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FB76D4E0C265A37B6DC099BA33B3FA1 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = HEXColor/StringExtension.swift; sourceTree = "<group>"; };
+		23FD24539DB5507316FAA1517A00E63C /* Pods_WhispRTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhispRTests.framework; path = "Pods-WhispRTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24FA1B63871C72D50112755489E5611A /* UILabel+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+TCCustomFont.h"; path = "CanvasLibrary/UILabel+TCCustomFont.h"; sourceTree = "<group>"; };
+		2528B5169092A7312D613131FD68666F /* Pods-WhispRTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhispRTests-umbrella.h"; sourceTree = "<group>"; };
+		268AE47078496506450FDD65DFC71B2F /* UIColor_Hex_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-prefix.pch"; sourceTree = "<group>"; };
+		26E5A69B02F66487B03A46AE60D23F56 /* Pods-WhispRUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhispRUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27DD63E9CC3D8BF425FB214044FEE596 /* Pods-WhispRUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhispRUITests-dummy.m"; sourceTree = "<group>"; };
+		2D25C536A578FBA5DFF196AD823BD0F9 /* Pods-WhispRUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhispRUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DEB50BDBCCC0AA7201685B0B89A7A88 /* UPCarouselFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UPCarouselFlowLayout.swift; path = UPCarouselFlowLayout/UPCarouselFlowLayout.swift; sourceTree = "<group>"; };
+		2E78018EDB7FE7D1E8FA8BFFFDFE988C /* UIButton+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+TCCustomFont.h"; path = "CanvasLibrary/UIButton+TCCustomFont.h"; sourceTree = "<group>"; };
+		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3139A40D6F46EB02B34CFEA0D064C497 /* UIColorInputError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorInputError.swift; path = HEXColor/UIColorInputError.swift; sourceTree = "<group>"; };
+		3161D7E5D6CD03A772805B96DDC32DF5 /* UIColor_Hex_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor_Hex_Swift-dummy.m"; sourceTree = "<group>"; };
+		338F2C6725151A4D72D3099C2A80B2A6 /* Canvas-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-prefix.pch"; sourceTree = "<group>"; };
+		3749EB35131D9F245A7F48FA5FF4B138 /* UPCarouselFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UPCarouselFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		37E0E7ADF6BBD4FAA72DE3D2AC377569 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		401FCB05CE1B2F5C1C96DC9087A583E7 /* Pods-WhispRTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhispRTests-resources.sh"; sourceTree = "<group>"; };
+		44FCE1C1F13086B428C9CD36EEB1DAD8 /* Canvas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Canvas.framework; path = Canvas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46AC28CC85C5ACD1964B25283FF2BF77 /* UITextView+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+TCCustomFont.m"; path = "CanvasLibrary/UITextView+TCCustomFont.m"; sourceTree = "<group>"; };
+		477B43A6B259E023892B473DCF8164A7 /* Pods-WhispRTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhispRTests.modulemap"; sourceTree = "<group>"; };
+		5043CC053A04ADA1EFF03D7B70BC1132 /* CSAnimationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimationView.m; path = CanvasLibrary/CSAnimationView.m; sourceTree = "<group>"; };
+		57D4E6DA10A482A42C79935C7FE09D11 /* UIButton+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+TCCustomFont.m"; path = "CanvasLibrary/UIButton+TCCustomFont.m"; sourceTree = "<group>"; };
+		5E5A29864CF1A3B2AACCAEAA4BAD277C /* Pods-WhispR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhispR-dummy.m"; sourceTree = "<group>"; };
+		5E6E75E51E24914C38E13FFCEDCA248A /* Pods-WhispRUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhispRUITests.modulemap"; sourceTree = "<group>"; };
+		5F57A2FE5F964ACA768DFEB618D232BE /* UINavigationBar+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+TCCustomFont.m"; path = "CanvasLibrary/UINavigationBar+TCCustomFont.m"; sourceTree = "<group>"; };
+		68F79E8524ABC51AE20DEDA5E53E251C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C77377819859C99C27DA03BCDEF0DEB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = UPCarouselFlowLayout/Info.plist; sourceTree = "<group>"; };
+		6D2575A929E173B794583DFED1AB7DF2 /* UILabel+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+TCCustomFont.m"; path = "CanvasLibrary/UILabel+TCCustomFont.m"; sourceTree = "<group>"; };
+		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		76A4C4F594C7CB86CFF291BE95CDF8F8 /* Pods-WhispRTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhispRTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		79F856D509186AF8A87925B68284DE3F /* Pods-WhispR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhispR-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A9AC8CB296D911DA1D0E78636F108F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CABBD543E7F08AC2C84F60106A3475E /* Canvas-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Canvas-umbrella.h"; sourceTree = "<group>"; };
+		7E878FEB89C32BCF11ECBB943B0B1C23 /* Pods-WhispRUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhispRUITests-resources.sh"; sourceTree = "<group>"; };
+		7F5EE1F99297DB8CA8B2EB3872387B9D /* UPCarouselFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UPCarouselFlowLayout.h; path = UPCarouselFlowLayout/UPCarouselFlowLayout.h; sourceTree = "<group>"; };
+		82987A8B02560B8EA850752A4EE24483 /* UIColor_Hex_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UIColor_Hex_Swift.modulemap; sourceTree = "<group>"; };
+		8A6B5B57967AAD52B15EC47C3BB72912 /* Pods-WhispRUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhispRUITests-umbrella.h"; sourceTree = "<group>"; };
+		8E1E571AF582E4BF5A20C88DFAC649EF /* UPCarouselFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C74EB5DC7F0F7DF455D731A1373A777 /* Pods-WhispRUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhispRUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9E73FDAF3D34AE120853B04C79C01351 /* Pods-WhispR-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhispR-frameworks.sh"; sourceTree = "<group>"; };
+		A3648D5FD291125B2421D981BAFB31F1 /* UIColor_Hex_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor_Hex_Swift-umbrella.h"; sourceTree = "<group>"; };
+		A3F74CAD1D4CE40B7A75A3FCF3502C46 /* Pods-WhispR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhispR.release.xcconfig"; sourceTree = "<group>"; };
+		A4719278EE62CA5A644B5CA6899F9C14 /* UPCarouselFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UPCarouselFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+		ACB73CE61A100E20119BFF06BA8F875B /* Pods-WhispRTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhispRTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADCF34C8104B157F2BAD38E0CF182650 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = HEXColor/UIColorExtension.swift; sourceTree = "<group>"; };
+		AF07F7816D862C0A3D235AF730D046C1 /* UIColor_Hex_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UIColor_Hex_Swift.xcconfig; sourceTree = "<group>"; };
+		B1B870FA42D8F908981ED6847562460C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B28543BF7E90B04114E4577937FD265A /* Canvas.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Canvas.h; path = CanvasLibrary/Canvas.h; sourceTree = "<group>"; };
+		B4B33C65199EEDE474EA2E41ACDA034C /* UITextField+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+TCCustomFont.h"; path = "CanvasLibrary/UITextField+TCCustomFont.h"; sourceTree = "<group>"; };
+		B4C3D5C2FF4E23A3B47F6A74A8C88A9B /* Pods-WhispR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WhispR.modulemap"; sourceTree = "<group>"; };
+		B4D7D09B350586C319B6330BD5287470 /* CSAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimation.h; path = CanvasLibrary/CSAnimation.h; sourceTree = "<group>"; };
+		B6064AB8131989D084938459C1CF9713 /* Pods-WhispRTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhispRTests-frameworks.sh"; sourceTree = "<group>"; };
+		B8CE3BDE2A929AD8DC2E6023320E9753 /* CSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSNavigationController.m; path = CanvasLibrary/CSNavigationController.m; sourceTree = "<group>"; };
+		B9937961452D529B33F67250729BA3B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9EA4FF318904D5F892E08A33BF7F80A /* UPCarouselFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UPCarouselFlowLayout.xcconfig; sourceTree = "<group>"; };
+		BEE796A57715DF038EC4CD8A5C7BFEFD /* CSAnimationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSAnimationView.h; path = CanvasLibrary/CSAnimationView.h; sourceTree = "<group>"; };
+		C81D9F5DB35D543E16370AC6BDCA7299 /* Canvas.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Canvas.modulemap; sourceTree = "<group>"; };
+		CA3DF95B19640FCCBEF3C5AFC598CC87 /* UITextField+TCCustomFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+TCCustomFont.m"; path = "CanvasLibrary/UITextField+TCCustomFont.m"; sourceTree = "<group>"; };
+		CAB49CE910E844D5B2F14187748F96FE /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UIColor_Hex_Swift.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB1D8BA914C934A9D2E8A5DBD8A8FBFD /* Pods-WhispRTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhispRTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D07FF103F11245B76EE81B7649D1FA56 /* UITextField+PlaceholderColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+PlaceholderColor.m"; path = "CanvasLibrary/UITextField+PlaceholderColor.m"; sourceTree = "<group>"; };
+		D1FF418B8F954F4C2D1FEC9E0AA0339A /* CSBlurView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSBlurView.h; path = CanvasLibrary/CSBlurView.h; sourceTree = "<group>"; };
+		D2C7C7E6B30340D9962EB50E95E708B6 /* CSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSNavigationController.h; path = CanvasLibrary/CSNavigationController.h; sourceTree = "<group>"; };
+		D6E3E1149CB87D860AE0EB6EF4E0921D /* UITextField+PlaceholderColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+PlaceholderColor.h"; path = "CanvasLibrary/UITextField+PlaceholderColor.h"; sourceTree = "<group>"; };
+		DDAAD87DC037C0F1BF6C0F20EF2DD125 /* CSAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSAnimation.m; path = CanvasLibrary/CSAnimation.m; sourceTree = "<group>"; };
+		DFF73B79EEB0E1867A56F3CC13145FF1 /* HEXColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HEXColor.h; path = HEXColor/HEXColor.h; sourceTree = "<group>"; };
+		E04CABF4051033D7F614F6F85C483105 /* UPCarouselFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UPCarouselFlowLayout.framework; path = UPCarouselFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B90729490011C58C092C48D72BEEC2 /* Pods-WhispR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhispR-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E1C7F5262C791DB909AAF58C8478FEEA /* Pods_WhispRUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhispRUITests.framework; path = "Pods-WhispRUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E8CC338E22746565737181ACCE0FCC /* UITextView+TCCustomFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+TCCustomFont.h"; path = "CanvasLibrary/UITextView+TCCustomFont.h"; sourceTree = "<group>"; };
+		E2AA76C0CD7920B820CF14C23C7AF804 /* Canvas-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Canvas-dummy.m"; sourceTree = "<group>"; };
+		EED782EDA4816579F4A979F2CD16C9F0 /* UPCarouselFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UPCarouselFlowLayout.modulemap; sourceTree = "<group>"; };
+		FA2A7C5BD33A0C352F922C41B2274F4F /* Pods_WhispR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WhispR.framework; path = "Pods-WhispR.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCB7F81DF54681ACB45D16734A3D0B41 /* Pods-WhispRTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhispRTests-dummy.m"; sourceTree = "<group>"; };
+		FDE6E9C3EEB153B27BACCC35F07873D6 /* Pods-WhispRTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhispRTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE8E305FC4E16EB7D90FD8C45FAACAEB /* Pods-WhispR-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WhispR-resources.sh"; sourceTree = "<group>"; };
+		FEC685CC0997C0C9A7F864E32A048D27 /* Pods-WhispRUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhispRUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005E8EFF94596D3DBDA470C1889E1A39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F478C4DA892A5793AA0D6529ED998D49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F5BF1CE004BCC6DDDC04C0CD88BE17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DA7A0C2FBF04D35DA90DF25C5C344F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F285BDFA4BB718DD35D5F01FFEF3368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076B143ED7E93BD83AA59D9A1B6BA6C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E787BB6C250AE107604BC1694991992 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B2AE3F732EFE81FB2B571D0F919835 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5177662C042BB326D7ACBB6D86186D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF227E2FAED8F47096E6483BED605DC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E5997E71C82CBACDED985E6856A851B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1816F09900906F161BA889F6CF00B017 /* Foundation.framework in Frameworks */,
+				C2CF24AE17CF70CA0A1706C7F659E88B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5B874E0A803608A9D1C21E3D433C2 /* Pods-WhispRTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1B870FA42D8F908981ED6847562460C /* Info.plist */,
+				477B43A6B259E023892B473DCF8164A7 /* Pods-WhispRTests.modulemap */,
+				76A4C4F594C7CB86CFF291BE95CDF8F8 /* Pods-WhispRTests-acknowledgements.markdown */,
+				FDE6E9C3EEB153B27BACCC35F07873D6 /* Pods-WhispRTests-acknowledgements.plist */,
+				FCB7F81DF54681ACB45D16734A3D0B41 /* Pods-WhispRTests-dummy.m */,
+				B6064AB8131989D084938459C1CF9713 /* Pods-WhispRTests-frameworks.sh */,
+				401FCB05CE1B2F5C1C96DC9087A583E7 /* Pods-WhispRTests-resources.sh */,
+				2528B5169092A7312D613131FD68666F /* Pods-WhispRTests-umbrella.h */,
+				CB1D8BA914C934A9D2E8A5DBD8A8FBFD /* Pods-WhispRTests.debug.xcconfig */,
+				ACB73CE61A100E20119BFF06BA8F875B /* Pods-WhispRTests.release.xcconfig */,
+			);
+			name = "Pods-WhispRTests";
+			path = "Target Support Files/Pods-WhispRTests";
+			sourceTree = "<group>";
+		};
+		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */,
+				74E404AA6957590324067E330E0EC533 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		36775551FB3201CFD1C1409295E3CBD8 /* UIColor_Hex_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				DFF73B79EEB0E1867A56F3CC13145FF1 /* HEXColor.h */,
+				1FB76D4E0C265A37B6DC099BA33B3FA1 /* StringExtension.swift */,
+				ADCF34C8104B157F2BAD38E0CF182650 /* UIColorExtension.swift */,
+				3139A40D6F46EB02B34CFEA0D064C497 /* UIColorInputError.swift */,
+				89E39B4A4225C8507CD868BAD198EF02 /* Support Files */,
+			);
+			name = UIColor_Hex_Swift;
+			path = UIColor_Hex_Swift;
+			sourceTree = "<group>";
+		};
+		3792AB08FBB3A92DC7F5B8E09F8186BD /* Pods-WhispRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37E0E7ADF6BBD4FAA72DE3D2AC377569 /* Info.plist */,
+				5E6E75E51E24914C38E13FFCEDCA248A /* Pods-WhispRUITests.modulemap */,
+				2D25C536A578FBA5DFF196AD823BD0F9 /* Pods-WhispRUITests-acknowledgements.markdown */,
+				26E5A69B02F66487B03A46AE60D23F56 /* Pods-WhispRUITests-acknowledgements.plist */,
+				27DD63E9CC3D8BF425FB214044FEE596 /* Pods-WhispRUITests-dummy.m */,
+				9C74EB5DC7F0F7DF455D731A1373A777 /* Pods-WhispRUITests-frameworks.sh */,
+				7E878FEB89C32BCF11ECBB943B0B1C23 /* Pods-WhispRUITests-resources.sh */,
+				8A6B5B57967AAD52B15EC47C3BB72912 /* Pods-WhispRUITests-umbrella.h */,
+				FEC685CC0997C0C9A7F864E32A048D27 /* Pods-WhispRUITests.debug.xcconfig */,
+				02C4BA4EC746A23707E534FF18F1285D /* Pods-WhispRUITests.release.xcconfig */,
+			);
+			name = "Pods-WhispRUITests";
+			path = "Target Support Files/Pods-WhispRUITests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06CDD10DE71306278CF89108B3036DFD /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4494BC9426654AE4F84137A0A246BA9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44FCE1C1F13086B428C9CD36EEB1DAD8 /* Canvas.framework */,
+				FA2A7C5BD33A0C352F922C41B2274F4F /* Pods_WhispR.framework */,
+				23FD24539DB5507316FAA1517A00E63C /* Pods_WhispRTests.framework */,
+				E1C7F5262C791DB909AAF58C8478FEEA /* Pods_WhispRUITests.framework */,
+				CAB49CE910E844D5B2F14187748F96FE /* UIColor_Hex_Swift.framework */,
+				E04CABF4051033D7F614F6F85C483105 /* UPCarouselFlowLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AEBEFC0F09CAEF18B2614D7B4E18DE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9518BB2D942F60B0157A8FC1DB65AC5C /* Canvas */,
+				36775551FB3201CFD1C1409295E3CBD8 /* UIColor_Hex_Swift */,
+				9E7E56F2930AB79B3773B3E7D484385B /* UPCarouselFlowLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		729D07EDB84EEA0943435F53631126A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C81D9F5DB35D543E16370AC6BDCA7299 /* Canvas.modulemap */,
+				0C5D1A1EEB190DB85D21FC2E43AB9D5A /* Canvas.xcconfig */,
+				E2AA76C0CD7920B820CF14C23C7AF804 /* Canvas-dummy.m */,
+				338F2C6725151A4D72D3099C2A80B2A6 /* Canvas-prefix.pch */,
+				7CABBD543E7F08AC2C84F60106A3475E /* Canvas-umbrella.h */,
+				1C90C55A3E8C51A6DDF87FBB053CCFEA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Canvas";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5AEBEFC0F09CAEF18B2614D7B4E18DE3 /* Pods */,
+				4494BC9426654AE4F84137A0A246BA9F /* Products */,
+				8B33990197AF4AA51BC1A4AE7538BCBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89E39B4A4225C8507CD868BAD198EF02 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9937961452D529B33F67250729BA3B6 /* Info.plist */,
+				82987A8B02560B8EA850752A4EE24483 /* UIColor_Hex_Swift.modulemap */,
+				AF07F7816D862C0A3D235AF730D046C1 /* UIColor_Hex_Swift.xcconfig */,
+				3161D7E5D6CD03A772805B96DDC32DF5 /* UIColor_Hex_Swift-dummy.m */,
+				268AE47078496506450FDD65DFC71B2F /* UIColor_Hex_Swift-prefix.pch */,
+				A3648D5FD291125B2421D981BAFB31F1 /* UIColor_Hex_Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIColor_Hex_Swift";
+			sourceTree = "<group>";
+		};
+		8B33990197AF4AA51BC1A4AE7538BCBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C7E6544269DBF13A39857D0EA5BBA15 /* Pods-WhispR */,
+				03C5B874E0A803608A9D1C21E3D433C2 /* Pods-WhispRTests */,
+				3792AB08FBB3A92DC7F5B8E09F8186BD /* Pods-WhispRUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8C7E6544269DBF13A39857D0EA5BBA15 /* Pods-WhispR */ = {
+			isa = PBXGroup;
+			children = (
+				7A9AC8CB296D911DA1D0E78636F108F1 /* Info.plist */,
+				B4C3D5C2FF4E23A3B47F6A74A8C88A9B /* Pods-WhispR.modulemap */,
+				E1B90729490011C58C092C48D72BEEC2 /* Pods-WhispR-acknowledgements.markdown */,
+				79F856D509186AF8A87925B68284DE3F /* Pods-WhispR-acknowledgements.plist */,
+				5E5A29864CF1A3B2AACCAEAA4BAD277C /* Pods-WhispR-dummy.m */,
+				9E73FDAF3D34AE120853B04C79C01351 /* Pods-WhispR-frameworks.sh */,
+				FE8E305FC4E16EB7D90FD8C45FAACAEB /* Pods-WhispR-resources.sh */,
+				0504A66C5F0CE3D81FCBEC5BBA2DA6EA /* Pods-WhispR-umbrella.h */,
+				0E295FEC801A37BEA05B579C152B2646 /* Pods-WhispR.debug.xcconfig */,
+				A3F74CAD1D4CE40B7A75A3FCF3502C46 /* Pods-WhispR.release.xcconfig */,
+			);
+			name = "Pods-WhispR";
+			path = "Target Support Files/Pods-WhispR";
+			sourceTree = "<group>";
+		};
+		9518BB2D942F60B0157A8FC1DB65AC5C /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				B28543BF7E90B04114E4577937FD265A /* Canvas.h */,
+				B4D7D09B350586C319B6330BD5287470 /* CSAnimation.h */,
+				DDAAD87DC037C0F1BF6C0F20EF2DD125 /* CSAnimation.m */,
+				BEE796A57715DF038EC4CD8A5C7BFEFD /* CSAnimationView.h */,
+				5043CC053A04ADA1EFF03D7B70BC1132 /* CSAnimationView.m */,
+				D1FF418B8F954F4C2D1FEC9E0AA0339A /* CSBlurView.h */,
+				0CBE27FF244B18044A64180DFCF757CD /* CSBlurView.m */,
+				D2C7C7E6B30340D9962EB50E95E708B6 /* CSNavigationController.h */,
+				B8CE3BDE2A929AD8DC2E6023320E9753 /* CSNavigationController.m */,
+				2E78018EDB7FE7D1E8FA8BFFFDFE988C /* UIButton+TCCustomFont.h */,
+				57D4E6DA10A482A42C79935C7FE09D11 /* UIButton+TCCustomFont.m */,
+				24FA1B63871C72D50112755489E5611A /* UILabel+TCCustomFont.h */,
+				6D2575A929E173B794583DFED1AB7DF2 /* UILabel+TCCustomFont.m */,
+				1215A597F806E5E832341F5FC2F983A6 /* UINavigationBar+TCCustomFont.h */,
+				5F57A2FE5F964ACA768DFEB618D232BE /* UINavigationBar+TCCustomFont.m */,
+				D6E3E1149CB87D860AE0EB6EF4E0921D /* UITextField+PlaceholderColor.h */,
+				D07FF103F11245B76EE81B7649D1FA56 /* UITextField+PlaceholderColor.m */,
+				B4B33C65199EEDE474EA2E41ACDA034C /* UITextField+TCCustomFont.h */,
+				CA3DF95B19640FCCBEF3C5AFC598CC87 /* UITextField+TCCustomFont.m */,
+				E1E8CC338E22746565737181ACCE0FCC /* UITextView+TCCustomFont.h */,
+				46AC28CC85C5ACD1964B25283FF2BF77 /* UITextView+TCCustomFont.m */,
+				729D07EDB84EEA0943435F53631126A2 /* Support Files */,
+			);
+			name = Canvas;
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		9E7E56F2930AB79B3773B3E7D484385B /* UPCarouselFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				6C77377819859C99C27DA03BCDEF0DEB /* Info.plist */,
+				7F5EE1F99297DB8CA8B2EB3872387B9D /* UPCarouselFlowLayout.h */,
+				2DEB50BDBCCC0AA7201685B0B89A7A88 /* UPCarouselFlowLayout.swift */,
+				E9FA753B3A71A5A4B56C6810D475C907 /* Support Files */,
+			);
+			name = UPCarouselFlowLayout;
+			path = UPCarouselFlowLayout;
+			sourceTree = "<group>";
+		};
+		E9FA753B3A71A5A4B56C6810D475C907 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				68F79E8524ABC51AE20DEDA5E53E251C /* Info.plist */,
+				EED782EDA4816579F4A979F2CD16C9F0 /* UPCarouselFlowLayout.modulemap */,
+				B9EA4FF318904D5F892E08A33BF7F80A /* UPCarouselFlowLayout.xcconfig */,
+				3749EB35131D9F245A7F48FA5FF4B138 /* UPCarouselFlowLayout-dummy.m */,
+				8E1E571AF582E4BF5A20C88DFAC649EF /* UPCarouselFlowLayout-prefix.pch */,
+				A4719278EE62CA5A644B5CA6899F9C14 /* UPCarouselFlowLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UPCarouselFlowLayout";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2BC44A031CB39627FA05531A0EB62946 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602B68B7EC15B10FE4D1EA9AD80E9F8C /* Pods-WhispRUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D06D8FEFD99A790AC6A387FC78F8EDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C73C64BD52C03AC9283EC1C8C78A420 /* Pods-WhispR-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FDFE918E261624CE4F3CBF82BB9E3D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC94CDD97A0B38E84E526BE7A9E78987 /* HEXColor.h in Headers */,
+				667B11DDAEA2C7ABFC823320317B326D /* UIColor_Hex_Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843B4331EF62D38A2B33A48EDAC00E03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E42DD04601DA8609C72D3CFB073F62D /* Canvas-umbrella.h in Headers */,
+				5406BEB3FD29A9C539DE4AFE4C10A986 /* Canvas.h in Headers */,
+				D1EF4A54B4E8F963E7232DA731E7AE75 /* CSAnimation.h in Headers */,
+				91D795311EAD2F3355D0BEEB2F0AE0EC /* CSAnimationView.h in Headers */,
+				364292DC2E201894D4B2D7D4E49B6983 /* CSBlurView.h in Headers */,
+				42AF4F04E566C82CB7A9D031C7204A04 /* CSNavigationController.h in Headers */,
+				87F467023D856D6C4593E24263667D22 /* UIButton+TCCustomFont.h in Headers */,
+				14A14F761865A8A9B235175A07F1822C /* UILabel+TCCustomFont.h in Headers */,
+				A1BD168DD0FAAB7537580B019D458087 /* UINavigationBar+TCCustomFont.h in Headers */,
+				1B052940904113503E18FE5FE51DE818 /* UITextField+PlaceholderColor.h in Headers */,
+				8011BB215C76D9D9AEA7CC7DD11AD020 /* UITextField+TCCustomFont.h in Headers */,
+				D5374FDB05E6C3CA00625AD949DA6E57 /* UITextView+TCCustomFont.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A732C348E817357AB34CF3362053D489 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74AA103709FB8626E165BF5D16C00327 /* UPCarouselFlowLayout-umbrella.h in Headers */,
+				43B672F08149F3B9E7956216FE45F46D /* UPCarouselFlowLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F56AD1756B737B557B9B72D32DAEFB70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A47D4B579D396DE832473B13DA9870A /* Pods-WhispRTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19C1530ED0590F970BF48ADD34359914 /* Pods-WhispR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33ECE19CEECF9160910A7CDE5595F5F /* Build configuration list for PBXNativeTarget "Pods-WhispR" */;
+			buildPhases = (
+				2D06D8FEFD99A790AC6A387FC78F8EDA /* Headers */,
+				1414474EDDD1D5EDF73125712846497E /* Sources */,
+				09F5BF1CE004BCC6DDDC04C0CD88BE17 /* Frameworks */,
+				24B2FB26AF3CBC970050851BE19B3B1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4209115835B590B0D99658583BF757B2 /* PBXTargetDependency */,
+				5581E5D29E47FC0C61D4ECAC34E42E0B /* PBXTargetDependency */,
+				A02568A9B94DE0542072CEF854313498 /* PBXTargetDependency */,
+			);
+			name = "Pods-WhispR";
+			productName = "Pods-WhispR";
+			productReference = FA2A7C5BD33A0C352F922C41B2274F4F /* Pods_WhispR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1B1F7D992188AE1C4099470FAF013C96 /* Canvas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F094D897EF81CF2FDCF61B5D78C7CF /* Build configuration list for PBXNativeTarget "Canvas" */;
+			buildPhases = (
+				843B4331EF62D38A2B33A48EDAC00E03 /* Headers */,
+				09FA62169B0DDAF7E58D4C215E73C1AF /* Sources */,
+				005E8EFF94596D3DBDA470C1889E1A39 /* Frameworks */,
+				14389DF8B623272111898F751F94DD8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canvas;
+			productName = Canvas;
+			productReference = 44FCE1C1F13086B428C9CD36EEB1DAD8 /* Canvas.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		920697005C5EF293DAA65E35D5010FDC /* UPCarouselFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAF8A9D8ECFBB0B370CD707FB13E945E /* Build configuration list for PBXNativeTarget "UPCarouselFlowLayout" */;
+			buildPhases = (
+				A732C348E817357AB34CF3362053D489 /* Headers */,
+				0BFCF4C1938806AFAB92C0582D3DE6FA /* Sources */,
+				5177662C042BB326D7ACBB6D86186D34 /* Frameworks */,
+				66E7869D0A80855314C4F6814AE5BDFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UPCarouselFlowLayout;
+			productName = UPCarouselFlowLayout;
+			productReference = E04CABF4051033D7F614F6F85C483105 /* UPCarouselFlowLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D63844CCED94886C4BA671AC1D48BAD8 /* Pods-WhispRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 116162A76DE1D3505B8C58DECF364221 /* Build configuration list for PBXNativeTarget "Pods-WhispRTests" */;
+			buildPhases = (
+				F56AD1756B737B557B9B72D32DAEFB70 /* Headers */,
+				1E14058599AB4CDB596201DE5DD56407 /* Sources */,
+				3E787BB6C250AE107604BC1694991992 /* Frameworks */,
+				F1061097626886001C7886605334E5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5EBC2AF0B2F736AA13950529818F83A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-WhispRTests";
+			productName = "Pods-WhispRTests";
+			productReference = 23FD24539DB5507316FAA1517A00E63C /* Pods_WhispRTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EC043FAF7C8B1FCFA0BDE97BFE3C0CEF /* UIColor_Hex_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F02E59F679FACBA4CF9ED61FB8A5AB6A /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */;
+			buildPhases = (
+				7FDFE918E261624CE4F3CBF82BB9E3D2 /* Headers */,
+				F435881936024B8CAF4C280035697472 /* Sources */,
+				5E5997E71C82CBACDED985E6856A851B /* Frameworks */,
+				6272194809BF423971AB2AF1C8CCB7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIColor_Hex_Swift;
+			productName = UIColor_Hex_Swift;
+			productReference = CAB49CE910E844D5B2F14187748F96FE /* UIColor_Hex_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE2E54B63CED98D0368E5C47B7E61264 /* Pods-WhispRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EA920F4F4E5743656F44417BA576E6C /* Build configuration list for PBXNativeTarget "Pods-WhispRUITests" */;
+			buildPhases = (
+				2BC44A031CB39627FA05531A0EB62946 /* Headers */,
+				67E4F6C1A34F96AD3570ADB574F06A2E /* Sources */,
+				0F285BDFA4BB718DD35D5F01FFEF3368 /* Frameworks */,
+				2BA6C0B8C34FA60F25D5B1B5CB08C5D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F730F66C662B0B2AE25AD6FA9D7D24A /* PBXTargetDependency */,
+			);
+			name = "Pods-WhispRUITests";
+			productName = "Pods-WhispRUITests";
+			productReference = E1C7F5262C791DB909AAF58C8478FEEA /* Pods_WhispRUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4494BC9426654AE4F84137A0A246BA9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B1F7D992188AE1C4099470FAF013C96 /* Canvas */,
+				19C1530ED0590F970BF48ADD34359914 /* Pods-WhispR */,
+				D63844CCED94886C4BA671AC1D48BAD8 /* Pods-WhispRTests */,
+				EE2E54B63CED98D0368E5C47B7E61264 /* Pods-WhispRUITests */,
+				EC043FAF7C8B1FCFA0BDE97BFE3C0CEF /* UIColor_Hex_Swift */,
+				920697005C5EF293DAA65E35D5010FDC /* UPCarouselFlowLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14389DF8B623272111898F751F94DD8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B2FB26AF3CBC970050851BE19B3B1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BA6C0B8C34FA60F25D5B1B5CB08C5D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6272194809BF423971AB2AF1C8CCB7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66E7869D0A80855314C4F6814AE5BDFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1061097626886001C7886605334E5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FA62169B0DDAF7E58D4C215E73C1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BD4F898E8FBC821B12F4DE200967C1 /* Canvas-dummy.m in Sources */,
+				4A3158088A9050536B7A282E9BAE17FE /* CSAnimation.m in Sources */,
+				190D4FC1811881DF3B163BF524AB1E6F /* CSAnimationView.m in Sources */,
+				C11E9E3E1599422A2BC7984680EA8277 /* CSBlurView.m in Sources */,
+				603A783B1E251353EDBDA43F35E63B8A /* CSNavigationController.m in Sources */,
+				92850C64E351375AB8760BB8089C14ED /* UIButton+TCCustomFont.m in Sources */,
+				649007CA24A39B49B960828688775E31 /* UILabel+TCCustomFont.m in Sources */,
+				F8A30EB7E98022E480E091F7E01475EF /* UINavigationBar+TCCustomFont.m in Sources */,
+				79091A120833E7602B730D078817A104 /* UITextField+PlaceholderColor.m in Sources */,
+				0D27D8F31749C3D7C55CA0B3D38D4E75 /* UITextField+TCCustomFont.m in Sources */,
+				D5B801126452C05AAAA941553F7A5C80 /* UITextView+TCCustomFont.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BFCF4C1938806AFAB92C0582D3DE6FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1503213443BED50F131A55429453D652 /* Info.plist in Sources */,
+				E02988B0B2315116D72641CA6D3F23B2 /* UPCarouselFlowLayout-dummy.m in Sources */,
+				4D930489F539C9C6F59FB7EEDD056435 /* UPCarouselFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1414474EDDD1D5EDF73125712846497E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC18EF8FF3C007097CCAE95EE80FB877 /* Pods-WhispR-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E14058599AB4CDB596201DE5DD56407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C82158900F33A576A5A46FCEA07ECDD /* Pods-WhispRTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67E4F6C1A34F96AD3570ADB574F06A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FDE563AA35DE68EBDAE91A979D9FA2 /* Pods-WhispRUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F435881936024B8CAF4C280035697472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5E93A68A92077ABE6B16C958C9F42C /* StringExtension.swift in Sources */,
+				9AED9AE2CB8E25AFC536538448C60D5D /* UIColor_Hex_Swift-dummy.m in Sources */,
+				3545B0D4EA93B96F7A5DA66D33F232A2 /* UIColorExtension.swift in Sources */,
+				E4327C5366600484CAE9D259586B2905 /* UIColorInputError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F730F66C662B0B2AE25AD6FA9D7D24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WhispR";
+			target = 19C1530ED0590F970BF48ADD34359914 /* Pods-WhispR */;
+			targetProxy = 559D5CBE7A03E5550D8FCD2C88E4A018 /* PBXContainerItemProxy */;
+		};
+		4209115835B590B0D99658583BF757B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Canvas;
+			target = 1B1F7D992188AE1C4099470FAF013C96 /* Canvas */;
+			targetProxy = A11191C785360035B125D648BEAAA5BF /* PBXContainerItemProxy */;
+		};
+		5581E5D29E47FC0C61D4ECAC34E42E0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIColor_Hex_Swift;
+			target = EC043FAF7C8B1FCFA0BDE97BFE3C0CEF /* UIColor_Hex_Swift */;
+			targetProxy = A1F7CF0699B93039CA01430A58CDE118 /* PBXContainerItemProxy */;
+		};
+		5EBC2AF0B2F736AA13950529818F83A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WhispR";
+			target = 19C1530ED0590F970BF48ADD34359914 /* Pods-WhispR */;
+			targetProxy = 47E02C2D834F2FB718DBC21B99832BAC /* PBXContainerItemProxy */;
+		};
+		A02568A9B94DE0542072CEF854313498 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UPCarouselFlowLayout;
+			target = 920697005C5EF293DAA65E35D5010FDC /* UPCarouselFlowLayout */;
+			targetProxy = A384E5C4702FA7CF20243B6B7005919A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08260DDDAE7E8CF3969BA3C1EC44331F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF07F7816D862C0A3D235AF730D046C1 /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BB6B19F8AA6BDFADBCC24BB2A6724BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02C4BA4EC746A23707E534FF18F1285D /* Pods-WhispRUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhispRUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhispRUITests/Pods-WhispRUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D20BF271AB3BC02150095CB3BFC561E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5D1A1EEB190DB85D21FC2E43AB9D5A /* Canvas.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				PRODUCT_MODULE_NAME = Canvas;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		41130B1EBE79A0E81A26993411A15755 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1D8BA914C934A9D2E8A5DBD8A8FBFD /* Pods-WhispRTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhispRTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhispRTests/Pods-WhispRTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4642CB70182681C240BBAAEB038023E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEC685CC0997C0C9A7F864E32A048D27 /* Pods-WhispRUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhispRUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhispRUITests/Pods-WhispRUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		475FF8D3D7C53A6086AE7E6FF2E3617D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5D1A1EEB190DB85D21FC2E43AB9D5A /* Canvas.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Canvas/Canvas-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Canvas/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Canvas/Canvas.modulemap";
+				PRODUCT_MODULE_NAME = Canvas;
+				PRODUCT_NAME = Canvas;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B2F06620133D18BB2B32365F7E5A14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF07F7816D862C0A3D235AF730D046C1 /* UIColor_Hex_Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UIColor_Hex_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UIColor_Hex_Swift/UIColor_Hex_Swift.modulemap";
+				PRODUCT_MODULE_NAME = UIColor_Hex_Swift;
+				PRODUCT_NAME = UIColor_Hex_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6FB69DE3242404D94736C4FE319330E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F74CAD1D4CE40B7A75A3FCF3502C46 /* Pods-WhispR.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhispR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhispR/Pods-WhispR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		727E450B7CEFE0CF3FE91C1CF56C5641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EA4FF318904D5F892E08A33BF7F80A /* UPCarouselFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPCarouselFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = UPCarouselFlowLayout;
+				PRODUCT_NAME = UPCarouselFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79E60291F09FA50A07D766CD2ABFC6F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E295FEC801A37BEA05B579C152B2646 /* Pods-WhispR.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhispR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhispR/Pods-WhispR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79FB006F5DA12F95A1105865252B9417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EA4FF318904D5F892E08A33BF7F80A /* UPCarouselFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UPCarouselFlowLayout/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/UPCarouselFlowLayout/UPCarouselFlowLayout.modulemap";
+				PRODUCT_MODULE_NAME = UPCarouselFlowLayout;
+				PRODUCT_NAME = UPCarouselFlowLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BFC70AC2B6DB3F751CA353DD9E4DF30D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB73CE61A100E20119BFF06BA8F875B /* Pods-WhispRTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WhispRTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WhispRTests/Pods-WhispRTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EA920F4F4E5743656F44417BA576E6C /* Build configuration list for PBXNativeTarget "Pods-WhispRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4642CB70182681C240BBAAEB038023E1 /* Debug */,
+				2BB6B19F8AA6BDFADBCC24BB2A6724BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		116162A76DE1D3505B8C58DECF364221 /* Build configuration list for PBXNativeTarget "Pods-WhispRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41130B1EBE79A0E81A26993411A15755 /* Debug */,
+				BFC70AC2B6DB3F751CA353DD9E4DF30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98E98810EEEB96C99CB95CB91F4ADE0A /* Debug */,
+				B97A7F6ACE1216BB5A2307CA83FC93C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F094D897EF81CF2FDCF61B5D78C7CF /* Build configuration list for PBXNativeTarget "Canvas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D20BF271AB3BC02150095CB3BFC561E /* Debug */,
+				475FF8D3D7C53A6086AE7E6FF2E3617D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAF8A9D8ECFBB0B370CD707FB13E945E /* Build configuration list for PBXNativeTarget "UPCarouselFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727E450B7CEFE0CF3FE91C1CF56C5641 /* Debug */,
+				79FB006F5DA12F95A1105865252B9417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33ECE19CEECF9160910A7CDE5595F5F /* Build configuration list for PBXNativeTarget "Pods-WhispR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79E60291F09FA50A07D766CD2ABFC6F0 /* Debug */,
+				6FB69DE3242404D94736C4FE319330E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F02E59F679FACBA4CF9ED61FB8A5AB6A /* Build configuration list for PBXNativeTarget "UIColor_Hex_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08260DDDAE7E8CF3969BA3C1EC44331F /* Debug */,
+				6B2F06620133D18BB2B32365F7E5A14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
